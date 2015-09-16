@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:background="@color/custom_progress_blue_header"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/custom_progress_background_white"
+        android:text="天气详情"
+        android:id="@+id/info" />
+
+    <ScrollView
+        android:background="#ffffff"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:fillViewport="false"
+        android:id="@+id/sv">
+
+        <TextView
+            android:textColor="@color/weather_bar_blue"
+            android:id="@+id/tvTip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="tip" />
+    </ScrollView>
+
+    <Button
+        android:background="@drawable/button_selector"
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:textColor="@color/custom_progress_background_white"
+        android:textSize="20dp"
+        android:text="确定" />
+</LinearLayout>

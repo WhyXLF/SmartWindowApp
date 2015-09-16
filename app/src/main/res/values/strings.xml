@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">智能窗</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+
+    <string name="title_activity_start">StartActivity</string>
+    <string name="outter_temp">室外温度  </string>
+    <string name="inner_temp">室内温度  </string>
+    <string name="outter_hum">室外湿度  </string>
+    <string name="inner_hum">室内湿度 </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_guide">guide</string>
+</resources>

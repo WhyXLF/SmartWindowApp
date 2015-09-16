@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_progress_background_white"
+    android:orientation="vertical"
+    tools:context="app.xlf.com.smartwindowapp.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="#0096ff"
+        android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" PM预警"/>
+        <SeekBar
+            android:id="@+id/pmBar"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:max="200"
+            android:indeterminate="false" />
+
+        <TextView
+            android:id="@+id/pmNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="温差预警"/>
+        <SeekBar
+            android:id="@+id/tmpBar"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:max="20"
+            android:indeterminate="false" />
+
+        <TextView
+            android:id="@+id/tmpNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="℃"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="湿度预警"/>
+        <SeekBar
+            android:id="@+id/humBar"
+            android:layout_width="228dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:max="100"
+            android:indeterminate="false" />
+
+        <TextView
+            android:id="@+id/humNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="%"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>
